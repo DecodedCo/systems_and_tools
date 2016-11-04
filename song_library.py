@@ -139,7 +139,7 @@ def nextWord(word, letter, all_lyrics):
 def create_lyrics(starting_word, length, lyrics):
     training_string = " ".join(lyrics)
     # remove existing autocomplete model
-    os.system("rm /Library/Python/2.7/site-packages/autocomplete/models_compressed.pkl")
+    os.system("rm models_compressed.pkl")
     # clean the text
     new_training_string = clean_text(training_string)
     models.train_models(new_training_string) # requires sudo
