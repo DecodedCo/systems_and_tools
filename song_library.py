@@ -154,7 +154,10 @@ def create_lyrics(starting_word, length, lyrics):
         # iterate over each candidate next word in the alphabet
         for letter in alphabet:
             # look at possible next words starting from the current letter
-            possible_next_words = autocomplete.predict(curr_word,letter)
+            try:
+                possible_next_words = autocomplete.predict(curr_word,letter)
+            except:
+                possible_next_words = []
             # if there's many possibilities, select one in a weighted fashion
             if len(possible_next_words) > 0:
                 n = len(possible_next_words)

@@ -11,6 +11,8 @@ $ fortune
 $ cowsay "hello"
 $ fortune | cowsay
 $ watch -n 2 "fortune | cowsay"
+$ rev
+$ yes "the command line is amazing"
 
 # Advanced functionality
 $ say

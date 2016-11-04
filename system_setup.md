@@ -1,18 +1,25 @@
 
 
 ```
-$ brew install fortune
-$ brew install cowsay
-$ brew install watch
-$ sudo pip install ipython
-$ pip install "ipython[notebook]"
-$ sudo pip install xmltodict
-$ sudo pip install autocomplete
-$ sudo pip install scipy
-$ sudo pip install sklearn
-$ sudo pip install matplotlib
-# Start a python notebook with sudo
-$ sudo ipython notebook
+brew install sox
+brew install cowsay
+brew install watch
+brew install sl
+brew install toilet
+brew isntall cmatrix
+brew install fortune
+
+```
+
+```
+pip install xmltodict
+pip install git+https://github.com/rodricios/autocomplete.git
+pip install scipy
+pip install sklearn
+pip install matplotlib
+
+#####
+su xxdadmin
 
 ```
 

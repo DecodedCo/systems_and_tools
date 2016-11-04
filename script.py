@@ -37,7 +37,7 @@ pairwise_similarity = tfidf * tfidf.T
 
 # print pairwise_similarity[0]
 
-# decoded.makePlot(pairwise_similarity, all_songs, ["blue","green","yellow","orange","red"]) # colour from least similar to most similar
+decoded.makePlot(pairwise_similarity, all_songs, ["blue","green","yellow","orange","red"]) # colour from least similar to most similar
 
 
 # import autocomplete
