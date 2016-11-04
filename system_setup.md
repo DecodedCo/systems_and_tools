@@ -1,7 +1,7 @@
 
 
 ```
-brew install sox
+brew install sox cowsay watch sl toilet cmatrix fortune
 brew install cowsay
 brew install watch
 brew install sl
@@ -12,11 +12,12 @@ brew install fortune
 ```
 
 ```
-pip install xmltodict
+pip install xmltodict git+https://github.com/rodricios/autocomplete.git scipy sklearn matplotlib
+<!-- pip install xmltodict
 pip install git+https://github.com/rodricios/autocomplete.git
 pip install scipy
 pip install sklearn
-pip install matplotlib
+pip install matplotlib -->
 
 #####
 su xxdadmin
