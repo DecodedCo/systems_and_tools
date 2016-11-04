@@ -1,17 +1,14 @@
 # systems_and_tools
 
-### Tools for playing around with the command line and python
-
-
+### Tools for playing around with the command
 
 ```
 # Controlling your computer:
 # ls, cp, mv, mkdir, rm, rmdir, nano, echo
 
 # Entertainment
-$ brew install fortune
-$ brew install cowsay
-
+$ fortune
+$ cowsay "hello"
 $ fortune | cowsay
 $ watch -n 2 "fortune | cowsay"
 
